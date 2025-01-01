@@ -17,7 +17,7 @@ SOC_vec = [0, .1, .25, .5, .75, .9, 1]; % Vector of state-of-charge values, SOC
 T_vec   = [278, 293, 313];              % Vector of temperatures, T, (K)
 AH      = 14;                           % Cell capacity, AH, (A*hr) 
 thermal_mass = 100;                     % Thermal mass (J/K)
-initialSOC = 0.6;                       % Battery initial SOC
+initialSOC = 1;                       % Battery initial SOC
 V0_mat  = [3.49, 3.5, 3.51; 3.55, 3.57, 3.56; 3.62, 3.63, 3.64;...
     3.71, 3.71, 3.72; 3.91, 3.93, 3.94; 4.07, 4.08, 4.08;...
     4.19, 4.19, 4.19];                          % Open-circuit voltage, V0(SOC,T), (V)
